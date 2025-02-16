@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(12, 15, 5), rgb(87, 86, 86));
+
+}
+.h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.calculator {
+    border: 1px #717377;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(127, 127, 131, 0.5);
+}
+input {
+    width: 410px;
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+    margin-bottom: 5px;
+    padding: 30px;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: 0px 3px 15px rgba(127, 127, 131, 0.5);
+    font-size: 40px;
+    text-align: end;
+    cursor: pointer;
+}
+input::placeholder {
+    color: #ffffff;
+}
+.op {
+    color: rgb(235, 144, 48);
+}
+button {
+    border: none;
+    width:60px;
+    height: 60px;
+    margin: 9px;
+    border-radius: 50%;
+    color: #ffffff;
+    background: none;
+    box-shadow: 0px 3px 15px rgba(148, 148, 152, 0.5);
+    font-size:20px;
+    cursor: pointer;
+}
+.Equalbtn {
+    background-color: rgb(236, 92, 44);
+}
